@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+.imgConatiner {
+  text-align: right;
+}
+.pokContainer {
+  width: 22.2%;
+  text-align: center;
+  margin: 12px;
+  border-radius: 20px;
+  padding: 10px 0px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 20%);
+}
+div#displayItem {
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+  justify-content: center;
+}
+img.pokImage {
+  width: 70%;
+  transform: scale(1.3);
+  margin: 0px -6px 10px 0px;
+}
+.abicontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.abicontainerTwo {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.2rem 0;
+}
+span.pokSameCls {
+  background: #ee7800;
+  border-radius: 20px;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+span.pokName {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-style: oblique;
+}
+span.pokWeight p {
+  font-size: 0.7rem;
+}
+.abicontainerTwo div p {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+.abicontainerTwo span {
+  color: #ee7800;
+}
+.secondBox,
+.firstBox {
+  display: flex;
+  justify-content: space-around;
+}
+.secondBox div,
+.firstBox div {
+  border-radius: 50%;
+  border: 2px solid #ff952b;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  padding: 15px 0px;
+  box-shadow: 0 2px 3px rgb(0 0 0 / 0.2);
+}
+.mainPowers {
+  font-weight: bold;
+}
+.powerName {
+  opacity: 0.8;
+}
+.secondBox {
+  margin-top: 10px;
+}
+.secondBox div:first-child,
+.secondBox div:last-child {
+  border: 3px solid #52ff52;
+}
+.abicontainer span.pokStat {
+  background-color: #57b9ff;
+}
+.buttons button {
+  padding: 8px 22px;
+  border-radius: 20px;
+  border: 2px solid #ee7800;
+  background: none;
+  margin: 0px 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.measureVal {
+  text-transform: lowercase;
+}
+.buttons button:hover {
+  transform: scale(1.05);
+}
+.buttons {
+  text-align: center;
+  margin: 20px 0px;
+}
+input#typeHere {
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 18%;
+}
+button#searchBtn {
+  padding: 6px 20px;
+  border-radius: 20px;
+  margin: 0px 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  border: 1px solid #ee7800;
+  background: transparent;
+  color: #ee7800;
+}
